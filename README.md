@@ -1,7 +1,10 @@
-# MATHLIB5 - Verified Symbolic Compute Pipeline 
+# mathlib5 
+ 
+Production Repository - Verified Symbolic Compute Pipeline 
+ 
+--- 
  
 Extracted from all-apl workspace 
  
-Components: 
-- mathlib5/ 
-- mathlib5-ffi-bridge/
+## License 
+Apache-2.0
