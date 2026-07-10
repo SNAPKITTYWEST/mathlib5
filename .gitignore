@@ -1,0 +1,12 @@
+build/ 
+*.so 
+*.dll 
+*.exe 
+*.class 
+*.pyc 
+__pycache__/ 
+.idea/ 
+.vscode/ 
+*.swp 
+.DS_Store 
+Thumbs.db
