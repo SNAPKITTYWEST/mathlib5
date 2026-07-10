@@ -1,0 +1,28 @@
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+# Haskell rules
+http_archive(
+    name = "rules_haskell",
+    sha256 = "...",
+    urls = ["https://github.com/tweag/rules_haskell/releases/download/.../rules_haskell.tar.gz"],
+)
+
+# Lean 4 rules
+http_archive(
+    name = "rules_lean4",
+    sha256 = "...",
+    urls = ["https://github.com/leanprover-community/rules_lean4/archive/...tar.gz"],
+)
+
+# LLVM/MLIR rules
+http_archive(
+    name = "rules_llvm",
+    sha256 = "...",
+    urls = ["https://github.com/llvm/llvm-project/.../rules_llvm.tar.gz"],
+)
+
+load("@rules_haskell//haskell:repositories.bzl", "haskell_repositories")
+haskell_repositories()
+
+load("@rules_lean4//lean:deps.bzl", "lean_deps")
+lean_deps()

@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "layers/axiom-proof",
+    "layers/prism-skills",
+    "layers/pnp-attack",
+    "layers/collatz",
+    "layers/math-skills",
+    "layers/sorryhunter",
+    "layers/rexx-interp"
+]
+
+[package]
+name = "mathlib5"
+version = "0.1.0"
+edition = "2021"

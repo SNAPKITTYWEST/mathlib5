@@ -1,0 +1,6 @@
+[package]
+name = "mathlib5-ffi-bridge"
+leanOptions = []
+
+[dependencies]
+mathlib = { git = "https://github.com/leanprover-community/mathlib4", rev = "nightly" }
