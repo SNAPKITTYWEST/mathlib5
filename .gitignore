@@ -10,3 +10,8 @@ __pycache__/
 *.swp 
 .DS_Store 
 Thumbs.db
+
+# Lean build cache and build logs
+.lake/
+lake_*.log
+lake_build*.log
